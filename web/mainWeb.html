@@ -10,6 +10,29 @@
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <style>
+    #中美洲{
+        position: absolute; top:131px; left:195px; z-index:1;
+    }
+    #加勒比海{
+        position: absolute; top:135px; left:295px; z-index:2;
+    }
+  #南美洲{
+        position: absolute; top:200px; left:340px; z-index:3;  
+    }
+    #太平洋{
+        position: absolute; top:135px; left:-10px; z-index:4;  
+    }
+    #非洲{
+        position: absolute; top:160px; left:640px; z-index:5;  
+    }
+    #東南亞{
+        position: absolute; top:180px; left:1000px; z-index:6;  
+    }
+    #世界地圖{
+        position: absolute; top:10px; left:-30px; z-index:0;
+    }
+  </style>
 
 </head>
 
@@ -54,87 +77,97 @@
           </p>
         </div>
         <div class="col-md-1"></div>
-        <div class="col-md-6 col-sm-6">
-           	<img src="img/world-map.png" alt="" class="img-responsive">
-           	<section id="landmark" class="section-padding"><img src="map-placeholder.png" onmouseover="this.src='map-placeholder.png'" onmouseout="this.src='up-chevron-button-1.png'"></section>
-        </div>
+        <section id="worldmap">
+            <div class="col-md-6 col-sm-6">
+              <div id="中美洲">
+                <a href="#Central America"><img id="中美洲" src="img/map-placeholder-中美洲.png" width="50" height="50" onclick='javascript:location="#Central America"' onMouseOver="this.width=this.width*1.5;this.height=this.height*1.5" onMouseOut="this.width=this.width/1.5;this.height=this.height/1.5" ></a>
+              </div>
+              <div id="加勒比海">
+                <a href="#Caribbean Sea"><img id="加勒比海" src="img/map-placeholder-加勒比海.png" width="50" height="50" onclick='javascript:location="#Caribbean Sea"' onMouseOver="this.width=this.width*1.5;this.height=this.height*1.5" onMouseOut="this.width=this.width/1.5;this.height=this.height/1.5" ></a>
+              </div>
+              <div id="南美洲">
+                  <a href="#South America"><img id="南美洲" src="img/map-placeholder-南美洲.png" width="50" height="50" onclick='javascript:location="#South America"' onMouseOver="this.width=this.width*1.5;this.height=this.height*1.5" onMouseOut="this.width=this.width/1.5;this.height=this.height/1.5" ></a>
+              </div>
+              <div id="太平洋">
+                  <a href="#The Pacific Ocean"><img id="太平洋" src="img/map-placeholder-太平洋.png" width="50" height="50" onclick='javascript:location="#The Pacific Ocean"' onMouseOver="this.width=this.width*1.5;this.height=this.height*1.5" onMouseOut="this.width=this.width/1.5;this.height=this.height/1.5" ></a>
+            </div>
+            <div id="非洲">
+                <a href="#Africa"><img id="非洲" src="img/map-placeholder-非洲.png" width="50" height="50" onclick='javascript:location="#Africa"' onMouseOver="this.width=this.width*1.5;this.height=this.height*1.5" onMouseOut="this.width=this.width/1.5;this.height=this.height/1.5" ></a>
+            </div>
+            <div id="東南亞">
+                <a href="#Southeast Asia"><img id="東南亞" src="img/map-placeholder-東南亞.png" width="50" height="50" onclick='javascript:location="#Southeast Asia"' onMouseOver="this.width=this.width*1.5;this.height=this.height*1.5" onMouseOut="this.width=this.width/1.5;this.height=this.height/1.5" ></a>
+            </div>
+              <div id="世界地圖">
+                <img id="世界地圖" src="img/world-map.png" width="1300" height="600">
+              </div>
+          </div>
+        </section>
         <div class="col-md-10">
         	
           <div class="col-md-6 col-sm-6">
             <div class="about-info">
-              <div class="details-list">
-              <div class="hyperlink"> 
-              	<section id="hyperlink">
-           			<a href="#Central America">中美洲</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           			<a href="#Caribbean Sea">加勒比海</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           			<a href="#South America">南美洲</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           			<a href="#The Pacific Ocean">太平洋</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           			<a href="#Africa">非洲</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           			<a href="#Southeast Asia">東南亞</a>
-           		</section>  
-           	  </div>          
-              	<section id="Central America" class="section-padding">
-              	<h1 style="color:brown;">中美洲</h1>
-              	
-              	<h2 style="color:peru;">瓜地馬拉 Guatemala</h2>
-              	<p>帶有焦糖、可可及木質香氣。</p>
-              	<h2 style="color:peru;">尼加拉瓜 Nicaragua</h2>
-              	<p>清爽的柑橘香，尾韻甘甜，柔順悠長。</p>
-              	<h2 style="color:peru;">哥斯大黎加 Costa Rica</h2>
-              	<p>口感柔和滑順，酸甜適中，入口襲來如紅酒般的果酸，香氣濃郁飽滿。</p>
-              	<h2 style="color:peru;">宏都拉斯 Honduras</h2>
-              	<p>口感溫和圓潤，酸而微甜，清香淡雅，具濃郁苦甜可可香氣。</p>
-              	<a href="#hyperlink" style="color: blue">Back to title</a>
-              	<br>
-              	</section>
-              	<section id="Caribbean Sea" class="section-padding">
-              	<h1 style="color:brown;">加勒比海</h1>
-              	
-              	<h2 style="color:peru;">古巴 Cuba</h2>
-              	<p>甜味、酸味與苦味平衡，酸味不強且柔潤順口；有香甜細膩氣味。</p>
-              	<a href="#hyperlink" style="color: blue">Back to title</a>
-              	<br>
-              	</section>
-              	<section id="South America" class="section-padding">
-              	<h1 style="color:brown;">南美洲</h1>
-              	
-              	<h2 style="color:peru;">巴西 Brazil</h2>
-              	<p>微苦微酸，性溫和，醇厚順口；淡雅型，香味居中。</p>
-              	<h2 style="color:peru;">哥倫比亞 Colombia</h2>
-              	<p>良質的酸度及甘甜味，具有獨特的酸味及醇味。輕柔的蘋果微酸伴隨甜桃清甜，並帶有核桃香氣，多層次的口感且香醇順口；高均衡度，具高度香氣，味道相當濃郁。</p>
-              	<h2 style="color:peru;">秘魯 Peru</h2>
-              	<p>桃子淡雅微酸，散發橡木香氣，後段糖蜜的土地溫柔，順口回甘。</p>
-              	<a href="#hyperlink" style="color: blue">Back to title</a>
-              	<br>
-              	</section>
-              	<section id="The Pacific Ocean" class="section-padding">
-              	<h1 style="color:brown;">太平洋</h1>
-              	
-              	<h2 style="color:peru;">美國 -夏威夷 Hawaii</h2>
-              	<p>香醇，甘柔滑口，帶有葡萄酒的酸味，誘人富有堅果味。</p>
-              	<a href="#hyperlink" style="color: blue">Back to title</a>
-              	<br>
-              	</section>
-              	<section id="Africa" class="section-padding">
-              	<h1 style="color:brown;">非洲</h1>
-              	
-              	<h2 style="color:peru;">衣索比亞 Ethiopia</h2>
-              	<p>柑橘與檸檬的豐富口感，伴隨茶香與花香的繚繞。</p>
-              	<h2 style="color:peru;">肯亞 Kenya</h2>
-              	<p>內容豐富完美，芳香濃郁，具特殊水果香味。</p>
-              	<h2 style="color:peru;">坦尚尼亞 Tanzania</h2>
-              	<p>酸甜，濃郁爽口，酸度較低，口感均衡，具濃厚的香味。</p>
-              	<a href="#hyperlink" style="color: blue">Back to title</a>
-              	<br>
-              	</section>
-              	<section id="Southeast Asia" class="section-padding">
-              	<h1 style="color:brown;">東南亞</h1>
-              	
-              	<h2 style="color:peru;">印尼 Indonesia(曼特寧)</h2>
-              	<p>不帶酸性，濃郁厚實、沉穩藥草香氣，後韻甘醇悠長，微苦中帶著典雅的芬芳與回甘。</p>
-              	<a href="#hyperlink" style="color: blue">Back to title</a>
-              	<br>
-              	</section>
+              <div class="details-list">        
+                <section id="Central America" class="section-padding">
+                <h1 style="color:brown;">中美洲</h1>
+                <h2 style="color:peru;">瓜地馬拉 Guatemala</h2>
+                <p>帶有焦糖、可可及木質香氣。</p>
+                <h2 style="color:peru;">尼加拉瓜 Nicaragua</h2>
+                <p>清爽的柑橘香，尾韻甘甜，柔順悠長。</p>
+                <h2 style="color:peru;">哥斯大黎加 Costa Rica</h2>
+                <p>口感柔和滑順，酸甜適中，入口襲來如紅酒般的果酸，香氣濃郁飽滿。</p>
+                <h2 style="color:peru;">宏都拉斯 Honduras</h2>
+                <p>口感溫和圓潤，酸而微甜，清香淡雅，具濃郁苦甜可可香氣。</p>
+                <a href="#worldmap" style="color: blue">Back to map</a>
+                <br>
+                </section>
+                <section id="Caribbean Sea" class="section-padding">
+                <h1 style="color:brown;">加勒比海</h1>
+                
+                <h2 style="color:peru;">古巴 Cuba</h2>
+                <p>甜味、酸味與苦味平衡，酸味不強且柔潤順口；有香甜細膩氣味。</p>
+                <a href="#worldmap" style="color: blue">Back to map</a>
+                <br>
+                </section>
+                <section id="South America" class="section-padding">
+                <h1 style="color:brown;">南美洲</h1>
+                
+                <h2 style="color:peru;">巴西 Brazil</h2>
+                <p>微苦微酸，性溫和，醇厚順口；淡雅型，香味居中。</p>
+                <h2 style="color:peru;">哥倫比亞 Colombia</h2>
+                <p>良質的酸度及甘甜味，具有獨特的酸味及醇味。輕柔的蘋果微酸伴隨甜桃清甜，並帶有核桃香氣，多層次的口感且香醇順口；高均衡度，具高度香氣，味道相當濃郁。</p>
+                <h2 style="color:peru;">秘魯 Peru</h2>
+                <p>桃子淡雅微酸，散發橡木香氣，後段糖蜜的土地溫柔，順口回甘。</p>
+                <a href="#worldmap" style="color: blue">Back to map</a>
+                <br>
+                </section>
+                <section id="The Pacific Ocean" class="section-padding">
+                <h1 style="color:brown;">太平洋</h1>
+                
+                <h2 style="color:peru;">美國 -夏威夷 Hawaii</h2>
+                <p>香醇，甘柔滑口，帶有葡萄酒的酸味，誘人富有堅果味。</p>
+                <a href="#worldmap" style="color: blue">Back to map</a>
+                <br>
+                </section>
+                <section id="Africa" class="section-padding">
+                <h1 style="color:brown;">非洲</h1>
+                
+                <h2 style="color:peru;">衣索比亞 Ethiopia</h2>
+                <p>柑橘與檸檬的豐富口感，伴隨茶香與花香的繚繞。</p>
+                <h2 style="color:peru;">肯亞 Kenya</h2>
+                <p>內容豐富完美，芳香濃郁，具特殊水果香味。</p>
+                <h2 style="color:peru;">坦尚尼亞 Tanzania</h2>
+                <p>酸甜，濃郁爽口，酸度較低，口感均衡，具濃厚的香味。</p>
+                <a href="#worldmap" style="color: blue">Back to map</a>
+                <br>
+                </section>
+                <section id="Southeast Asia" class="section-padding">
+                <h1 style="color:brown;">東南亞</h1>
+                
+                <h2 style="color:peru;">印尼 Indonesia(曼特寧)</h2>
+                <p>不帶酸性，濃郁厚實、沉穩藥草香氣，後韻甘醇悠長，微苦中帶著典雅的芬芳與回甘。</p>
+                <a href="#worldmap" style="color: blue">Back to map</a>
+                <br>
+                </section>
               </div>
             </div>
           </div>
