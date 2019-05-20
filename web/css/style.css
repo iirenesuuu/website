@@ -297,7 +297,7 @@ table {
     left: -100px;
 }
 #event{
-    background: url('../img/res02.jpg') no-repeat;
+    background: url('../img/CK/coffee-shop.jpg') no-repeat;
     background-size: cover;
 }
 .left-images img {
@@ -311,16 +311,19 @@ table {
     border-right: 2px solid #841b2d;
 }
 .details-text {
-    background-color: rgba(14, 4, 4, 0.70);
-    border-right: 2px solid #A87F41;
-    padding: 20px 20px 30px 30px;
+    font-family: 'DFYa-W3-WIN-BF';
+    color:#FFFFFF;
+    height: 327px;
+    background-color: rgba(100, 100, 100, 0.70);
+    border-right: 2px solid #ffffff;
+    padding: 20px 20px 20px 30px;
     overflow: auto;
 }
 .content-holder h2 {
     color: #FFB03B;
-    font-size: 32px;
+    font-size: 22px;
     padding-bottom: 15px;
-    font-family: 'Satisfy', sans-serif;
+    font-family: 'DFHsiu-W3-WIN-BF';
 }
 .content-holder address strong {
     color: #FFB03B;
