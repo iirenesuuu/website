@@ -301,8 +301,9 @@ table {
     background-size: cover;
 }
 .left-images img {
+    margin-left: 5px;
     height: 327px;
-    width: 100%;
+    width: 180px;
 }
 .left-images{
     padding: 0px;
