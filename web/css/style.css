@@ -337,17 +337,18 @@ table {
     font-weight: 300;
 }
 .btn-read-more {
-    background: #FFB03B;
+    background: rgba(246, 224, 191, 0.7);
     padding: 7px 19px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
+    font-family: 'DFYa-W3-WIN-BF';
+    font-size: 16px;
     line-height: 17px;
     font-weight: 400;
     letter-spacing: 1px;
     border-radius: 3px;
     color: #000;
     text-transform: uppercase;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .btn-read-more:hover
 {
