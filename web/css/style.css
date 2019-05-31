@@ -46,7 +46,7 @@ table {
     min-height: 630px;
 }
 .bg-color{
-    background-color: RGBA(0, 0, 0, 0.61);
+    background-color: RGBA(0, 0, 0, 0.5);
     min-height: 630px;
 }
 #banner h2{
@@ -112,7 +112,7 @@ table {
 }
 
 .header-h {
-    color: #8B4513;
+    color: rgba(192,97,27);
     font-size: 40px;
     margin-top: 10px;
     font-family: 'DFYa-W3-WIN-BF';
@@ -447,6 +447,13 @@ table {
     padding-bottom: 20px;
     font-family: 'DFHsiu-W3-WIN-BF';
     font-size: 44px;
+    color: #FFFFFF;
+}
+
+.footer .widget-title2{
+    padding-bottom: 30px;
+    font-family: 'DFHsiu-W3-WIN-BF';
+    font-size: 30px;
     color: #FFFFFF;
 }
 .footer .widget, .footer address {
